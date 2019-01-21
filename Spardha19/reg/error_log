@@ -1,0 +1,20 @@
+[05-Dec-2018 04:39:52 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 04:39:52 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 05:52:06 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 05:52:06 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 05:52:27 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 05:52:27 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 05:52:59 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 05:52:59 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 09:41:36 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 09:41:36 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 09:43:14 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 09:43:14 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 09:44:21 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 09:44:21 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 09:49:11 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 09:49:11 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 09:49:49 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 09:49:49 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
+[05-Dec-2018 09:56:43 UTC] PHP Notice:  Undefined index: txtUsername in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 107
+[05-Dec-2018 09:56:43 UTC] PHP Notice:  Object of class PDOStatement could not be converted to int in /home/h4fl4y0pgibr/public_html/almafiesta.com/spardha/reg/register.php on line 57
