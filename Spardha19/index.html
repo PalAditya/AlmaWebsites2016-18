@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Spardha 19</title>
+    <!-- Bootstrap CSS -->
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" >
+<link rel="stylesheet" type="text/css" href="css/carousel.css" rel="stylesheet" type="text/css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript" ></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/animate.js"></script>
+    <script src="js/custom.js"></script>
+  </head>
+
+ <style type="text/css">
+   @font-face{
+    font-family: 'earseoldyear';
+    src: url('Fonts/Geom.ttf'); 
+   }
+   .indent-1 {float: left;}
+    .indent-1 section {width: 50%; padding-left: 10px; float: left;}
+   @font-face{
+    font-family: 'wiz';
+    src: url('Fonts/Wizardry.ttf'); 
+   }
+   .hiddingprize{
+    display: none;
+   }
+   @media screen and (max-width: 760px){
+      .logonavbar{
+        display:none;
+      }
+      
+      .backchodi{
+    display: none;
+  }
+
+  .chotabhai{
+    font-size: 12px;
+  }
+.indent-1{
+      display: none;
+    }
+    .hiddingprize{
+      display: block;
+    }
+   }
+   } 
+
+   .rowchirag {
+    background-color: #a44d5e;
+    background-color: rgba(233,230,230,0.79);
+    padding: 2% 0;
+  }
+
+.align-items-center {
+  -ms-flex-align: center!important;
+  align-items: center!important;
+}
+.d-flex {
+  display: -ms-flexbox!important;
+  display: flex!important;
+}
+
+  
+  @media screen and (max-width: 325px){
+      .logonavbar{
+        display:none;
+      }
+      .backchodi{
+    display: none;
+  }
+
+  .chb2{
+    display: none;
+  }
+
+  .chotabhai{
+    font-size: 12px;
+  }
+
+   }
+
+#accordion{
+    padding-left: 80px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+#accordion:before{
+    content: "";
+    width: 5px;
+    height: 100%;
+    background: #004e89;
+    position: absolute;
+    top: 0;
+    left: 22px;
+    z-index: -1;
+}
+#accordion .panel{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 15px;
+}
+#accordion .panel-heading{
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+#accordion .panel-title a{
+    display: block;
+    padding: 10px 30px 15px 0;
+    background: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    color: #004e89;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+#accordion .panel-title a:before{
+    font-family: FontAwesome;
+    content: "\f068";
+    display: inline-block;
+    font-weight: 900;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #cad5c2;
+    text-align: center;
+    font-size: 17px;
+    color: #004e89;
+    border: 6px solid #004e89;
+    position: absolute;
+    top: 0;
+    left: -80px;
+}
+#accordion .panel-title a.collapsed:before{
+    font-family: FontAwesome; 
+    content: "\f067";
+    display: inline-block;
+    font-weight: 900;
+    background: #fff;
+}
+#accordion .panel-body{
+    padding: 10px 15px;
+    background: #eee;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5) inset, 0 1px 2px rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    color: #487677;
+    line-height: 25px;
+}
+    
+
+
+ </style>
+
+
+  <body>
+    <!-- Navigation -->
+    <nav id="myHeader" class="header navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a style="font-family: earseoldyear; font-size:38px; font-weight:bold; " class="navbar-brand" href="index.html"><span class="logonavbar"><img src="images/alma.png" height="70"></span>Spardha &nbsp2019</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a style="font-family: 'Concert One', cursive; font-size: 18px;" class="nav-link" href="index.html">Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a style="font-family: 'Concert One', cursive; font-size: 18px;" class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-family: 'Concert One', cursive; font-size: 18px;"class="nav-link" href="#papers">Smaple Question Set</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-family: 'Concert One', cursive; font-size: 18px;"class="nav-link" href="#prizes">Prizes</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-family: 'Concert One', cursive; font-size: 18px;" class="nav-link" href="#eligibility">Eligibility & Rules</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-family: 'Concert One', cursive; font-size: 18px;"class="nav-link" href="reg/index.html">Register Now!</a>
+            </li>
+            <li class="nav-item">
+              <a style="font-family: 'Concert One', cursive; font-size: 18px;"class="nav-link" href="#contactomg">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="content">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+         <div class="carousel-item active">
+           <img style="margin-top : -5px;" src="images/banner3new.jpg" alt="...">
+           <div class="gradient"></div>
+           <div class="carousel-caption chotabhai">
+            <span><a class="chotabhai" style="font-family: earseoldyear; font-size:38px; padding-left: 10px; padding-right: 10px;">Spardha: </a> <a class="chotabhai chb2" style="font-family: earseoldyear; font-size:38px;">The Annual School Competitive Exam</a></span>
+              <h2 class="backchodi">Organised by Alma Fiesta, IIT Bhubaneswar</h2>
+              <h2 class="backchodi"> Infuse a healthy competitive spirit through <b> Spardha:</b> a reward based competitive exams</h2>
+              <a class="btn btn-primary" href="reg/index.html" role="button">Register Now!</a>
+            </div>
+          </div>
+      </div>
+    </header>
+
+<section id = "about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 heading">
+               <div class="icon">
+                   <i class="fa fa-paper-plane" aria-hidden="true"></i>
+               </div>
+            </div>
+            <div class="col-sm-12 heading">
+                <h3>All you need to know about Spardha 2019</h3>
+                <h4>An initiatve by Alma Fiesta to nurture future scientists, technologists and other professional talent at school level.</h4>
+            </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+            <div class="col-sm-4 col1">
+                <div class="row">
+                    <div class="col-sm-2 box1">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-10 inner-content">
+                        <h3>Challenge yourself!</h3>
+                        <p>Revive the lost curiosity and interest among you the students by providing them with a test that challenges their analytical thinking. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col2">
+                <div class="row">
+                    <div class="col-sm-2 box1">
+                        <i class="fa fa-globe" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-10 inner-content">
+                        <h3>National Platform</h3>
+                        <p>An opportunity for young genuises to prove themselves on the national platform and also a chance for them to know where they stand</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col3">
+                <div class="row">
+                    <div class="col-sm-2 box1">
+                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-10 inner-content">
+                        <h3>Be innovative!</h3>
+                        <p>Disseminate knowledge and information on the latest developments in science and technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id ="papers" class="blog" style="padding-bottom: 0px; margin-bottom:0px;" >
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 heading">
+                <h3>Some Spardha papers from recent years</h3>
+                <h4>For more information you can look at the syllabus section.</h4>
+            </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                       <div class="image-one">
+                           <img src="images/pdf.jpg" alt="" class="img-thumbnail blog-1">
+                             <div class="text-block"> 
+                               <h4><a href="papers/Spardha_2018_Class_6-8.pdf">Class 6-8</a></h4>
+                             </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+              <div class="blog-column1">
+                     <h5><a href="papers/Spardha_2018_Class_6-8.pdf">Spardha paper from the year 2018</a></h5>
+               <a class="btn btn-primary" href="papers/Spardha_2018_Class_6-8.pdf" role="button">More >></a>
+             </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                       <div class="image-one">
+                           <img src="images/pdf.jpg" alt="" class="img-thumbnail blog-1">
+                             <div class="text-block"> 
+                               <h4><a href="papers/Spardha_2018_Class_9-10.pdf">Class 9-10</a></h4>
+                             </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+              <div class="blog-column1">
+                     <h5><a href="papers/Spardha_2018_Class_9-10.pdf">Spardha paper from the year 2018</a></h5>
+               <a class="btn btn-primary" href="papers/Spardha_2018_Class_9-10.pdf" role="button">More >></a>
+             </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                       <div class="image-one">
+                           <img src="images/pdf.jpg" alt="" class="img-thumbnail blog-1">
+                             <div class="text-block"> 
+                               <h4><a href="papers/Spardha_2018_Class_11-12.pdf">Class 11-12(PCM)</a></h4>
+                             </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+              <div class="blog-column1">
+                     <h5><a href="papers/Spardha_2018_Class_11-12.pdf">Spardha paper from the year 2018</a></h5>
+               <a class="btn btn-primary" href="papers/Spardha_2018_Class_11-12.pdf" role="button">More >></a>
+             </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                       <div class="image-one">
+                           <img src="images/pdf.jpg" alt="" class="img-thumbnail blog-1">
+                             <div class="text-block"> 
+                               <h4><a href="papers/Spardha_2017_Class_11-12.pdf">Class 11-12(PCM)</a></h4>
+                             </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+              <div class="blog-column1">
+                     <h5><a href="papers/Spardha_2017_Class_11-12.pdf">Spardha paper from the year 2017</a></h5>
+               <a class="btn btn-primary" href="papers/Spardha_2017_Class_11-12.pdf" role="button">More >></a>
+             </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+<div class="container" id = "eligibility">
+<section class="section mt-5" style="margin-bottom: 10px; margin-top: 0px; padding-top: 100px; padding-bottom: 5px;">
+  <div  style="margin-bottom: 10px; margin-top: 0px; padding-top: 0px;">
+    <div class="row">
+      
+      <div class="col-lg-12 ml-auto d-flex align-items-center mt-4 mt-md-0">
+        <div class="row" >
+        <div class="col-md-12">
+          <p style="text-align: center; font-family: 'Concert One', cursive; font-size: 25px;  ">Eligibility & Rules</p>
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default" >
+                    <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Examination Structure
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <p>Spardha consists of compulsory Physics, Chemistry and Aptititude. For Students from 6th standard to 10th Standard Maths and Biology is compulsory. For 11th and 12th standard students they can choose one subject from Mathematics or Biology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Examination Scheddule
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <p>The registration for the exam ends on 15th of December. From then onwards depending on availability of a perfect schedule, Spardha is conducted on a national platform in the month of December. The exact dates will be notified later.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Syllabus and Difficulty
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            <p> As Spardha is a All India Aptitude cum Talent Search examination, the difficulty level is kept high to get the selection of the best students for prizes. Although NCERT syllabus of that year is kept as the satndard syllabus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingFour">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Registration
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                        <div class="panel-body">
+                            <p>Registration of the examination can be done through the Regional Coordiantor and the exam cost is Rs. 100. After registration on the website, student receives a mail with his roll number. This will be used as a basis for further processes. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      </div>
+</section>
+
+ <div id="prizes">
+<section class="indent-1">
+    <!-- Section 1 --> 
+    <section>
+        <div style="padding-top: 7px;">
+          <img alt="Web Studio" class="img-fluid" src="images/prizes.gif" />
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section>
+      <p style="font-family: wiz; text-align: center; font-size: 50px;">PRIZES</p>
+        <p class="margin-top-s">Spardha comes with an initiative of talent hunting and believes in rewarding the talent across our country. Top 3 candidates get an opportunity to visit IIT Bhubaneswar. A participation certificate is given to every participant. Total Prizes of worth Rs. 1,00,000 are being offered to the studets through Alma Fiesta. </p>
+    </section>
+</section>
+
+<section class="hiddingprize">
+  <div style="padding-top: 7px;">
+
+          <img alt="Web Studio" class="img-fluid" src="images/prizes.gif" />
+        </div>
+        <p class="margin-top-s">Spardha comes with an initiative of talent hunting and believes in rewarding the talent across our country. Top 3 candidates get an opportunity to visit IIT Bhubaneswar. A participation certificate is given to every participant. Total Prizes of worth Rs. 1,00,000 are being offered to the studets through Alma Fiesta. </p>
+</section>
+</div>
+</div>
+
+
+<!-- Footer -->
+<footer class="page-footer" id="contactomg">
+  <div class="gradient"></div>
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-lg-5 col-md-12 col-12 content">
+
+          <!-- Content -->
+          <a style="font-family: earseoldyear; font-size:38px; font-weight:bold; " class="navbar-brand" href="index.html">Spardha &nbsp2019</a>
+          <p>Spardha is an annual national school level competitive exam organised by Alma Fiesta to promote </p>
+          <p style="color: blue; font-weight: bold;"> Contact the event Coordinator Aakash Garg for further details (+91 7417417224/ +91 8989806514)</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-2 col-md-4 mx-auto">
+
+          <!-- Links -->
+          <h5 class="mt-3 mb-3">Site Navigation</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="index.html">go to home</a>
+            </li>
+            <li>
+              <a href="#about">About Us</a>
+            </li>
+            <li>
+              <a href="#prizes">Prizes</a>
+            </li>
+            <li>
+              <a href="#papers">Sample Questino Set</a>
+            </li>
+            <li>
+              <a href="#eligibility">Eligibility & Rules</a>
+            </li>
+            <li>
+              <a href="reg/index.html">Register</a>
+            </li>
+            <li>
+              <a href="#contactomg">Contact Us</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+    <br/>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center">
+       <p>© 2019, All Rights Reserved. <a href="almafiesta.com">Alma Fiesta</a> , Designed by <a>Web Development Team</a></p>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+
+   
+    
+<script>
+$('.carousel').carousel({
+  interval: 2000
+})
+    
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+     <script>
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+
+<script>
+$('.carousel').carousel({
+  interval: 2000
+})
+    
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+        arrows: false,
+        dots: false,
+          pauseOnHover: false,
+          responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 4
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 3
+          }
+        }]
+      });
+    });
+  </script>
+</body>
+
+
+  </body>
+</html>
